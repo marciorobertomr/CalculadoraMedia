@@ -5,7 +5,7 @@
 
 body {
     text-align: center;
-    margin: 20px 20px;
+    margin: 50px 30px 0;
     height: 100vh;
     background-image: url("https://static.vecteezy.com/ti/vetor-gratis/p1/4620458-grafico-composicao-caderno-com-caneta-gradiente-icone-para-tema-escuro-atribuicao-livro-diario-uso-para-notas-escola-linha-fina-cor-simbolo-estilo-moderno-pictograma-isolado-esboco-desenho-vetor.jpg");
     background-size: 250px;
@@ -16,23 +16,12 @@ body {
 }
 
 h1 {
-    margin-bottom: 7px;
-}
-
-.logoImersaoDev {
-    height: 40px;
-    margin: 20px auto;
-}
-
-.alura-logo {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    height: 20px;
+    margin-bottom: 20px;
 }
 
 .container {
     line-height: 25px;
+    margin-top: 50px;
 }
 
 .container p {
