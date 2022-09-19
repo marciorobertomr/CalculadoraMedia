@@ -40,13 +40,14 @@ h1 {
     padding: 8px;
     border-radius: 15%;
     background-color: #eee7e7;
+    cursor: pointer;
 }
 
 .container input {
     margin-left: 6px;
 }
 
-#resultado {
+#result {
     color: white;
     font-size: 20px;
     font-weight: bold;

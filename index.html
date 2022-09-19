@@ -10,7 +10,7 @@
     <body>
         <script src="./script.js"></script>
         <header>
-            <div class="titulos">
+            <div class="titles">
                 <h1>Calculadora de Média</h1>
                 <h3>Digite suas notas e descubra qual a sua média</h3>
             </div>
@@ -21,24 +21,25 @@
                 <ul>
                     <li>
                         1º Nota:
-                        <input type="number" id="primeiroBimestre">
+                        <input type="number" id="fristBimester">
                     </li>
                     <li>
                         2º Nota:
-                        <input type="number" id="segundoBimestre">
+                        <input type="number" id="secondBimester">
                     </li>
                     <li>
                         3º Nota:
-                        <input type="number" id="terceiroBimestre">
+                        <input type="number" id="thirdBimester">
                     </li>
                     <li>
                         4º Nota:
-                        <input type="number" id="quartoBimestre">
+                        <input type="number" id="forthBimester">
                     </li>
                 </ul>
-                <button onClick="calcular()">Calcular</button>
+                <button onClick="calc()">Calcular</button>
+                <button onClick="reset()">Limpar</button>
             </div>
-            <div id="resultado"></div>
+            <div id="result"></div>
         </main>
     </body>
 </html>

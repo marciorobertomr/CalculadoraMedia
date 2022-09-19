@@ -1,19 +1,26 @@
-function calcular() {
-    var primeiroBimestre = parseFloat(document.getElementById("primeiroBimestre").value);
-    var segundoBimestre = parseFloat(document.getElementById("segundoBimestre").value);
-    var terceiroBimestre = parseFloat(document.getElementById("terceiroBimestre").value);
-    var quartoBimestre = parseFloat(document.getElementById("quartoBimestre").value);
+function calc() {
+    var fristBimester = parseFloat(document.getElementById("fristBimester").value);
+    var secondBimester = parseFloat(document.getElementById("secondBimester").value);
+    var thirdBimester = parseFloat(document.getElementById("thirdBimester").value);
+    var forthBimester = parseFloat(document.getElementById("forthBimester").value);
 
-    var media = (primeiroBimestre + segundoBimestre + terceiroBimestre + quartoBimestre)/4;
-    var aprovacao;
+    var average = (fristBimester + secondBimester + thirdBimester + forthBimester)/4;
+    var approval;
 
-    if (media >= 7) {
-        aprovacao = "Aprovado";
+    if (average >= 7) {
+        approval = "Aprovado";
     } else {
-        aprovacao = "Reprovado";
+        approval = "Reprovado";
     }
 
-    var resultado = document.getElementById("resultado");
-    resultadoMedia = "A sua média foi: " + media + ". <br>Você foi " + aprovacao + "!";
-    resultado.innerHTML = resultadoMedia;
+    var result = document.getElementById("result");
+    resultAverage = "A sua média foi: " + average + ". <br>Você foi " + approval + "!";
+    result.innerHTML = resultAverage;
+}
+
+function reset() {
+    document.getElementById("fristBimester").value = "";
+    document.getElementById("secondBimester").value = "";
+    document.getElementById("thirdBimester").value = "";
+    document.getElementById("forthBimester").value = "";
 }
