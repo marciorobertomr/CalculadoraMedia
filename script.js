@@ -18,7 +18,7 @@ function calc() {
         }
 
         var result = document.getElementById("result");
-        resultAverage = "<span>A sua média foi: " + average + ". <br>Você foi " + approval + "!";
+        resultAverage = "<div id='return' class='result'><span>A sua média foi: " + average + ". <br>Você foi " + approval + "!</span></div>";
         result.innerHTML = resultAverage;
     }
 }
@@ -28,7 +28,8 @@ function reset() {
     document.getElementById("secondBimester").value = "";
     document.getElementById("thirdBimester").value = "";
     document.getElementById("forthBimester").value = "";
-    
+
+    document.getElementById("return").remove();    
 }
 
 function validation() {
